@@ -24,6 +24,7 @@
 		3B9C407F2747A6E40082CE0A /* Uiview+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C407E2747A6E40082CE0A /* Uiview+extension.swift */; };
 		3B9C40812747B0A70082CE0A /* naviInstantiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C40802747B0A70082CE0A /* naviInstantiVC.swift */; };
 		3B9C40832747BC540082CE0A /* pushVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C40822747BC540082CE0A /* pushVC.swift */; };
+		3BFD87552793EC0A00BCF06B /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD87542793EC0A00BCF06B /* tableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3B9C407E2747A6E40082CE0A /* Uiview+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Uiview+extension.swift"; sourceTree = "<group>"; };
 		3B9C40802747B0A70082CE0A /* naviInstantiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviInstantiVC.swift; sourceTree = "<group>"; };
 		3B9C40822747BC540082CE0A /* pushVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushVC.swift; sourceTree = "<group>"; };
+		3BFD87542793EC0A00BCF06B /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				3B9C40852747BEEF0082CE0A /* 네비_왼쪽위 */,
 				3B9C40792747A2730082CE0A /* instanti단 하나의 뷰컨_오른쪽위.swift */,
 				3B9C40842747BECF0082CE0A /* detail */,
+				3BFD87542793EC0A00BCF06B /* tableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				3B9C40812747B0A70082CE0A /* naviInstantiVC.swift in Sources */,
 				3B9C40452747533C0082CE0A /* MyModelViewModel.swift in Sources */,
 				3B9C407A2747A2730082CE0A /* instanti단 하나의 뷰컨_오른쪽위.swift in Sources */,
+				3BFD87552793EC0A00BCF06B /* tableViewController.swift in Sources */,
 				3B9C402827474FB10082CE0A /* SceneDelegate.swift in Sources */,
 				3B9C4040274752D20082CE0A /* Webservice.swift in Sources */,
 				3B9C403E274751260082CE0A /* MainTableCell.swift in Sources */,
