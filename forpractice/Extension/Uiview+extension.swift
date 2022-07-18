@@ -1,6 +1,7 @@
 import UIKit
 
 extension UIView {
+    
     func anchor(top: NSLayoutYAxisAnchor? = nil,//계속 넣기 귀찮으니까 옵셔널.
                 left: NSLayoutXAxisAnchor? = nil,
                 bottom: NSLayoutYAxisAnchor? = nil,

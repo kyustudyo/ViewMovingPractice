@@ -8,9 +8,10 @@ import Foundation
 import UIKit
 
 
-class akak : UICollectionViewController {
+class CyanViewController : UICollectionViewController {
     
     var color : UIColor?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = color!

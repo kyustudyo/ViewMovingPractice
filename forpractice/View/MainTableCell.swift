@@ -9,11 +9,11 @@ import Foundation
 import UIKit
 
 class MainTableCell : UITableViewCell {
-    @IBOutlet weak var label1: UILabel!
-    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var detail: UILabel!
     
-    func confiugure(data:Two){
-        label1.text = data.cmpyNm
-        label2.text = data.rprsvPnm
+    func confiugure(data:NmPnm){
+        name.text = data.cmpyNm
+        detail.text = data.rprsvPnm
     }
 }

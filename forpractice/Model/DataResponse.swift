@@ -7,10 +7,20 @@
 
 import Foundation
 
-struct MyData : Decodable,Equatable {
+struct ArticleList: Decodable {
+    let articles: [Article]
+}
+
+struct Article: Decodable {
+    let title: String
+    let url: String
+}
+
+
+struct DataResponse : Decodable,Equatable {
     let id : Int = 0
-    let array : [Two]
-    let header : Two2
+    let array : [NmPnm]
+    let header : PageResultCode
     
     enum CodingKeys: String, CodingKey {
         case array = "data"
@@ -22,11 +32,12 @@ struct MyData : Decodable,Equatable {
     }
 }
 
-struct Two : Decodable {
+struct NmPnm : Decodable {
     let cmpyNm : String
     let rprsvPnm : String
 }
-struct Two2 : Decodable {
+
+struct PageResultCode : Decodable {
     let pageNo : String
     let resultCode : String
 }

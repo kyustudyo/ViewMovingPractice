@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class instantiateViewController : UIViewController{
+class NaviTopRightViewController : UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
